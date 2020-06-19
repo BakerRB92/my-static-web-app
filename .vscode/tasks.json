@@ -6,27 +6,39 @@
 			"command": "host start",
 			"problemMatcher": "$func-watch",
 			"isBackground": true,
+<<<<<<< HEAD
 			"dependsOn": "npm install",
 			"options": {
 				"cwd": "${workspaceFolder}/api"
 			}
+=======
+			"dependsOn": "npm install"
+>>>>>>> api change
 		},
 		{
 			"type": "shell",
 			"label": "npm install",
+<<<<<<< HEAD
 			"command": "npm install",
 			"options": {
 				"cwd": "${workspaceFolder}/api"
 			}
+=======
+			"command": "npm install"
+>>>>>>> api change
 		},
 		{
 			"type": "shell",
 			"label": "npm prune",
 			"command": "npm prune --production",
+<<<<<<< HEAD
 			"problemMatcher": [],
 			"options": {
 				"cwd": "${workspaceFolder}/api"
 			}
+=======
+			"problemMatcher": []
+>>>>>>> api change
 		}
 	]
 }
